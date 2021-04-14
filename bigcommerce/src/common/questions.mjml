@@ -1,0 +1,8 @@
+<mj-text mj-class="body-text">
+    If you have any questions, please visit our
+    <a href="https://leffot.com/frequently-asked-questions" class="inline-link"
+        >FAQ page</a
+    >
+    or email us at
+    <a href="mailto:info@leffot.com" class="inline-link">info@leffot.com</a>.
+</mj-text>

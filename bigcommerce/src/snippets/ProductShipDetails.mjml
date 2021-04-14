@@ -1,0 +1,48 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="20px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="0">
+                    %%GLOBAL_ProductShipHeading%%
+                </mj-text>
+
+                <mj-table padding="10px 0 0">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="
+                                    color: #474747;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: bold;
+                                    width: 80%;
+                                "
+                            >
+                                %%LNG_ProductShipProductName%%
+                            </td>
+                            <td
+                                style="
+                                    color: #474747;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: bold;
+                                    width: 20%;
+                                "
+                            >
+                                %%LNG_ProductShipProductQuantity%%
+                            </td>
+                        </tr>
+                        <mj-raw>
+                            <tr>
+                                <td>%%GLOBAL_ProductShipProductRows%%</td>
+                            </tr>
+                        </mj-raw>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

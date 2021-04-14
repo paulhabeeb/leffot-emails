@@ -1,0 +1,32 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/2d7daf64-cd18-47eb-97f9-e050fc04cdce.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title"> Alden x Leffot Exclusives </mj-text>
+
+        <mj-text mj-class="section-callout">
+            In stock and ready to ship
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            Take your pick from a number of Alden x Leffot exclusive makeups,
+            whether it’s our new dark brown NST Blucher, brown alpine captoe
+            boot, shell cordovan City Bluchers, or dark brown Cooney boot. These
+            models are designed by us in collaboration with Alden and are
+            available in limited numbers.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/alden/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

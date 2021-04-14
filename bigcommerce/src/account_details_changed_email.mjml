@@ -1,0 +1,39 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title">
+                    Account Details Changed
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    Hello %%GLOBAL_CustomerName%%,
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    We wanted to let you know that the following details have
+                    been changed on your account:
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_ChangedCustomerFields%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    If you made the changes yourself, please disregard this
+                    email. If not, please contact us immediately at
+                    <a href="mailto:info@leffot.com" class="inline-link"
+                        >info@leffot.com</a
+                    >.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer_plain.mjml" />
+    </mj-body>
+</mjml>

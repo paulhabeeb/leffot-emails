@@ -1,0 +1,29 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="20px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="0">
+                    Tracking Number(s)
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    <mj-raw>
+                        <style>
+                            .ul-padding ul,
+                            .ul-padding li {
+                                margin: 0;
+                                padding: 0;
+                            }
+                        </style>
+                        <div class="ul-padding">
+                            %%GLOBAL_TrackingLinkList%%
+                        </div>
+                    </mj-raw>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

@@ -1,0 +1,22 @@
+<mj-section mj-class="footer">
+    <mj-column mj-class="body-column-600">
+        <mj-text css-class="footer-link" mj-class="footer-text">
+            This email was sent to
+            <a href="mailto:*|EMAIL|*" target="_blank">*|EMAIL|*</a>. You
+            received this email because you asked us to contact you with offers,
+            events, and product news.
+        </mj-text>
+        <mj-text css-class="footer-link" mj-class="footer-text">
+            <a href="*|UNSUB|*">Unsubscribe from this list</a
+            >&nbsp;&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*"
+                >Update subscription preferences</a
+            >
+        </mj-text>
+        <mj-text css-class="footer-link" mj-class="footer-text">
+            *|LIST:ADDRESSLINE|*
+        </mj-text>
+        <mj-text css-class="footer-link" mj-class="footer-text">
+            © 2021 Leffot. All rights reserved.
+        </mj-text>
+    </mj-column>
+</mj-section>

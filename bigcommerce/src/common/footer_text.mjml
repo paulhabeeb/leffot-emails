@@ -1,0 +1,7 @@
+<mj-text mj-class="footer-text">
+    <strong>Leffot</strong><br />
+    10 Christopher St.<br />
+    New York, NY 10014<br />
+    <a href="tel:+12129894577" class="inline-link">(212) 989-4577</a><br />
+    <a href="mailto:info@leffot.com" class="inline-link">info@leffot.com</a>
+</mj-text>

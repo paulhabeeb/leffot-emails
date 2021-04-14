@@ -1,0 +1,27 @@
+<mj-section>
+    <mj-column mj-class="container--600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/322cb02c-466e-44c5-8128-e346a3363fc7.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-subtitle"> Thomas Riemer Gloves </mj-text>
+
+        <mj-text mj-class="section-text">
+            Thomas Riemer uses only the finest skins, hand-selecting each with
+            meticulous care for the finest quality and construction. From
+            peccary to shearling, nappa to reindeer suede, we have a wide range
+            of gloves for any weather.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/categories/gloves/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

@@ -1,0 +1,44 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/418f34bf-1346-4690-a25d-3f4509f1585e.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-callout color-primary">
+            Hiro Yanagimachi
+        </mj-text>
+
+        <mj-text mj-class="section-title"> Room Slippers </mj-text>
+
+        <mj-text mj-class="section-callout">
+            Available with monograms for the first time.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            Room slippers, as they’re called in Japan, are worn from room to
+            room. In the US we call them house shoes or, simply, slippers.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            But these are no ordinary slippers. Just like the fine quality shoes
+            made by the Hiro Yanagimachi team, these room slippers are handmade
+            in Tokyo in your choice of color and size.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            We are excited to offer monograms as a new way to add a personal
+            touch to your slippers. You can customize a pair on our website.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/hiro-yanagimachi/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

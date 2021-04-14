@@ -1,0 +1,82 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/6d9796a1-45b3-40dc-bbaf-4b0b15623287.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title">
+            Customize a Pair of Corthays
+        </mj-text>
+
+        <mj-text mj-class="section-callout">
+            Dive into our selection of custom made Corthay shoes.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            Last year we launched a new website, and with it the ability to
+            customize
+            <a
+                class="inline-link"
+                href="https://leffot.com/brands/edward-green/custom-made/"
+                >Edward Green</a
+            >
+            and
+            <a
+                class="inline-link"
+                href="https://leffot.com/brands/gaziano-girling/custom-made/"
+                >Gaziano & Girling</a
+            >
+            shoes. We recently expanded this feature to include Corthay.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            Corthay shoes are sleek, modern, and quintessentially French. With
+            elegance and sophistication, they are small works of art.
+        </mj-text>
+    </mj-column>
+</mj-section>
+<mj-section mj-class="pullquote-section">
+    <mj-group>
+        <mj-column>
+            <mj-text mj-class="pullquote-title">
+                “A pair of sculpted-toe Casanova oxfords in lie de vin calfskin
+                may be just the thing to celebrate in.”
+            </mj-text>
+            <mj-text mj-class="pullquote-text">
+                <a
+                    class="inline-link"
+                    href="https://robbreport.com/style/footwear/custom-corthay-shoes-at-leffot-1234598633/"
+                    >Read Robb Report’s feature</a
+                >
+                on our collection of Corthays available for custom order.
+            </mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-text mj-class="section-text">
+            Take your pick from a number of models, including their iconic
+            two-eyelet derby, the Arca; devilishly handsome oxford, the
+            Casanova; sleek ankle-height chukka, the Bella; and many more. Each
+            model can be configured to your liking, from the leather and patina
+            to the last and sole.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            Use it to place an order today, or simply find inspiration for the
+            future.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/corthay/custom-made/"
+            mj-class="button-base"
+        >
+            Customize a Pair
+        </mj-button>
+    </mj-column>
+</mj-section>

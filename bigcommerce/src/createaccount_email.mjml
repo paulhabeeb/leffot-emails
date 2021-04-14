@@ -1,0 +1,12 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-include path="./common/create_account.mjml" />
+
+        <mj-include path="./common/footer_plain.mjml" />
+    </mj-body>
+</mjml>

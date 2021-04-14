@@ -1,0 +1,31 @@
+<mj-section mj-class="body-section-full-width" background-color="#f1f1f1">
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-inside-full-width"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/52a3587d-402f-4f19-babc-9358c1eb6427.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title"> Alden Last Pairs </mj-text>
+
+        <mj-text mj-class="section-text">
+            We’re down to the last few sizes in these Alden x Leffot exclusives.
+            Snag a pair before they go out of stock.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            From the ever-popular color 8 Tanker boot to newer models like the
+            Grove derby and Leydon penny loafer, these last pairs are in stock
+            and ready to ship.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/categories/alden-last-pairs/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

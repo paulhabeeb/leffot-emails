@@ -1,0 +1,13 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="675px" />
+        <mj-include path="./styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./header.mjml" />
+        <mj-include path="./new-releases.mjml" />
+        <mj-include path="./previous-releases.mjml" />
+        <mj-include path="./sell.mjml" />
+        <mj-include path="./footer.mjml" />
+    </mj-body>
+</mjml>

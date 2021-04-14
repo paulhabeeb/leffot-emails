@@ -1,0 +1,20 @@
+<mj-section mj-class="sell-your-shoes">
+    <mj-column mj-class="body-column-600">
+        <mj-text mj-class="section-title color-white">
+            Sell your shoes
+        </mj-text>
+
+        <mj-text mj-class="section-text color-white">
+            Remember those shoes in the back of your closet? Sell them for cash
+            or store credit.
+        </mj-text>
+
+        <mj-button
+            href="https://leffot.com/pre-owned/sell-your-shoes/"
+            mj-class="button-base"
+            align="center"
+        >
+            Find out how
+        </mj-button>
+    </mj-column>
+</mj-section>

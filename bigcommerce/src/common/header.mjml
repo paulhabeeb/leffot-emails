@@ -1,0 +1,10 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            align="left"
+            padding="0"
+            width="100px"
+            src="https://gallery.mailchimp.com/aa515892f1b2fcfd7769f161b/images/1bb4088c-e48b-4eae-bde8-e1b453184dfe.png"
+        ></mj-image>
+    </mj-column>
+</mj-section>

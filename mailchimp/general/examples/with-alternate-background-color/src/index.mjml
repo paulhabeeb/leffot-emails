@@ -1,0 +1,14 @@
+<mjml>
+    <mj-head>
+        <mj-title>*|MC:SUBJECT|*</mj-title>
+        <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+        <mj-include path="../../../src/common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="../../../src/common/header_dark.mjml" />
+        <mj-include path="./bags.mjml" />
+        <mj-include path="./last-pairs.mjml" />
+        <mj-include path="./drakes.mjml" />
+        <mj-include path="../../../src/common/footer.mjml" />
+    </mj-body>
+</mjml>

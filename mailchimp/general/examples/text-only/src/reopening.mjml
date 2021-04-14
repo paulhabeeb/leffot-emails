@@ -1,0 +1,57 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-text mj-class="section-title"> We’re Open! </mj-text>
+
+        <mj-text mj-class="section-text">
+            We are excited to announce that our New York City boutique has
+            reopened. In order to welcome you safely, we would like to share
+            some new guidelines to give you peace of mind when you visit us.
+        </mj-text>
+
+        <mj-text mj-class="section-subtitle-small">
+            Personal Protect­ive Equip­ment
+        </mj-text>
+        <mj-text mj-class="section-text">
+            For your safety and the safety of others, masks are required at all
+            times.
+        </mj-text>
+
+        <mj-text mj-class="section-subtitle-small">
+            Social Distan­cing
+        </mj-text>
+        <mj-text mj-class="section-text">
+            The number of people in the inside will be managed to ensure that
+            every­one can remain six feet apart.
+        </mj-text>
+
+        <mj-text mj-class="section-subtitle-small">
+            Hygiene and Clean­ing
+        </mj-text>
+        <mj-text mj-class="section-text">
+            We will be disin­fect­ing all high-touch surfaces and have hand
+            santit­izers ready for your use.
+        </mj-text>
+
+        <mj-text mj-class="section-subtitle-small">
+            Priv­ate Appoint­ments
+        </mj-text>
+        <mj-text mj-class="section-text">
+            We are happy to accom­mod­ate special times for you if you would
+            prefer. Please email us at
+            <a href="mailto:info@leffot.com" class="inline-link"
+                >info@leffot.com</a
+            >
+            to sched­ule an appoint­ment earlier or after hours.
+        </mj-text>
+
+        <mj-text mj-class="section-subtitle-small"> New Store Hours </mj-text>
+        <mj-text mj-class="section-text">
+            For the time being, we will be open Monday to Saturday from 12 pm to
+            6 pm.
+        </mj-text>
+
+        <mj-text mj-class="section-text">
+            We look forward to seeing you soon!
+        </mj-text>
+    </mj-column>
+</mj-section>

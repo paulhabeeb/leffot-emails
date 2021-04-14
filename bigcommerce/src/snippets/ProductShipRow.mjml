@@ -1,0 +1,29 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="10px 0">
+            <mj-column mj-class="body-column-600">
+                <mj-table padding="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText topBorder"
+                                style="padding-top: 10px; width: 80%"
+                            >
+                                %%GLOBAL_ProductShipProductName%%
+                            </td>
+                            <td
+                                class="tableText topBorder"
+                                style="padding-top: 10px; width: 20%"
+                            >
+                                %%GLOBAL_ProductShipProductQuantity%%
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

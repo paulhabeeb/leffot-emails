@@ -1,0 +1,80 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+        <mj-preview> %%GLOBAL_OrderNumberStatusChangedTo%% </mj-preview>
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_OrderStatusChangedHi%%,
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    An order you placed on our site has been updated.
+                    %%GLOBAL_OrderNumberStatusChangedTo%%.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 0 10px">
+            <mj-column mj-class="body-column-600">
+                <mj-spacer mj-class="body-section-spacer" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            %%SNIPPET_RefundedAmountRow%% %%SNIPPET_ShipmentTracking%%
+            %%SNIPPET_ShippedItems%% %%SNIPPET_ToBeShippedItems%%
+            %%SNIPPET_DownloadableItems%%
+        </mj-raw>
+
+        <mj-section>
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="0">
+                    %%LNG_OrderDetails%%
+                </mj-text>
+
+                <mj-table padding="10px 0 25px">
+                    <tbody>
+                        <tr>
+                            <td class="tableText tableHeader">
+                                %%LNG_OrderStatusChangedOrderTotal%%
+                            </td>
+                            <td class="tableText">%%GLOBAL_OrderTotal%%</td>
+                        </tr>
+                        <tr>
+                            <td class="tableText tableHeader">
+                                %%LNG_OrderStatusChangedDatePlaced%%
+                            </td>
+                            <td class="tableText">%%GLOBAL_DatePlaced%%</td>
+                        </tr>
+                        <tr>
+                            <td class="tableText tableHeader">
+                                %%LNG_OrderStatusChangedPaymentMethod%%
+                            </td>
+                            <td class="tableText">%%GLOBAL_PaymentMethod%%</td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+
+                <mj-button
+                    href="https://leffot.com/orderstatus.php"
+                    mj-class="button-primary"
+                >
+                    View Order
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-spacer mj-class="body-section-spacer" />
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer.mjml" />
+    </mj-body>
+</mjml>

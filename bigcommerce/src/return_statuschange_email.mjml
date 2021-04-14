@@ -1,0 +1,49 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+        <mj-preview>
+            Return Status: %%GLOBAL_ReturnStatus%% - %%GLOBAL_ProductQuantity%%x
+            %%GLOBAL_ProductName%%
+        </mj-preview>
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title">
+                    %%LNG_StatusOfReturnChanged%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_Hi%% %%GLOBAL_CustomerFirstName%%,
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_RecentlySubmittedReturnRequest%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_ProductQuantity%%x %%GLOBAL_ProductName%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_ReturnStatusChangedTo%%
+                    <strong>%%GLOBAL_ReturnStatus%%</strong>.
+                    %%GLOBAL_ReturnReceivedCredit%%
+                </mj-text>
+
+                %%GLOBAL_ReturnInstructions%%
+
+                <mj-button
+                    href="https://leffot.com/account/returns"
+                    mj-class="button-primary"
+                >
+                    View Return
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer.mjml" />
+    </mj-body>
+</mjml>

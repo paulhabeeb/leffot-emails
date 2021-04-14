@@ -1,0 +1,27 @@
+<mj-section mj-class="body-section-full-width" background-color="#947000">
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-inside-full-width"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/6653d3bb-3659-4384-8597-786a07d36383.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title color-white"> Crosby Chukka </mj-text>
+
+        <mj-text mj-class="section-text color-white">
+            Drake’s Crosby is an easy-to-wear chukka that’s soft and
+            comfortable. Available in stone, snuff, and loden suede, as well as
+            their new chocolate brown, it’s a classic style that pairs well with
+            jeans, cords, or chinos.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/drakes/"
+            mj-class="button-base button-secondary"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

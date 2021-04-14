@@ -1,0 +1,7 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-include path="./questions.mjml" />
+
+        <mj-include path="./footer_text.mjml" />
+    </mj-column>
+</mj-section>

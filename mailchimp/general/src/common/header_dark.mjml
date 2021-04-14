@@ -1,0 +1,9 @@
+<mj-section mj-class="body-section-full-width" background-color="#222222">
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            width="100px"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/9b98061f-fdbf-419e-966e-819f60dd579b.png"
+        >
+        </mj-image>
+    </mj-column>
+</mj-section>

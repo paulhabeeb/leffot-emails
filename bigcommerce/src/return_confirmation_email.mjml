@@ -1,0 +1,105 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+        <mj-preview>
+            Order #%%GLOBAL_OrderId%% - Reason: %%GLOBAL_ReturnReason%% -
+            Outcome: %%GLOBAL_ReturnAction%% - Comments:
+            %%GLOBAL_ReturnComments%%
+        </mj-preview>
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title">
+                    Return Request Confirmation
+                </mj-text>
+
+                <mj-text mj-class="order-number">
+                    Order #%%GLOBAL_OrderId%%
+                </mj-text>
+
+                <mj-table padding="10px 0 0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText tableHeader"
+                                style="padding-right: 10px; width: 25%"
+                            >
+                                Reason
+                            </td>
+                            <td class="tableText" style="width: 75%">
+                                %%GLOBAL_ReturnReason%%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                class="tableText tableHeader"
+                                style="padding-right: 10px; width: 25%"
+                            >
+                                Outcome
+                            </td>
+                            <td class="tableText" style="width: 75%">
+                                %%GLOBAL_ReturnAction%%
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                class="tableText tableHeader"
+                                style="padding-right: 10px; width: 25%"
+                            >
+                                Comments
+                            </td>
+                            <td class="tableText" style="width: 75%">
+                                %%GLOBAL_ReturnComments%%
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 0 10px">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="10px 0">
+                    Return Items
+                </mj-text>
+
+                <mj-table padding="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText tableHeader"
+                                style="width: 80%"
+                            >
+                                Item
+                            </td>
+                            <td
+                                class="tableText tableHeader"
+                                style="width: 20%"
+                            >
+                                %%LNG_Qty%%
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+
+                <mj-raw>
+                    <tr>
+                        <td>%%SNIPPET_ReturnItems%%</td>
+                    </tr>
+                </mj-raw>
+
+                <mj-button
+                    href="https://leffot.com/account/returns"
+                    mj-class="button-primary"
+                >
+                    View Return
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer.mjml" />
+    </mj-body>
+</mjml>

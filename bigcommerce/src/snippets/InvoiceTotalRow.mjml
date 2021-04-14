@@ -1,0 +1,45 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-table padding="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="
+                                    color: #222222;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    padding-right: 10px;
+                                    text-align: right;
+                                    width: 70%;
+                                "
+                            >
+                                %%GLOBAL_label%%:
+                            </td>
+                            <td
+                                style="
+                                    color: #222222;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    text-align: right;
+                                    width: 30%;
+                                "
+                            >
+                                %%GLOBAL_value%%
+                            </td>
+                        </tr>
+                        <mj-raw>
+                            <tr>
+                                <td>%%GLOBAL_ShippingDiscount%%</td>
+                            </tr>
+                        </mj-raw>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

@@ -1,0 +1,29 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-table padding="10px 0 0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText tableHeader"
+                                style="width: 70%"
+                            >
+                                %%LNG_CartItems%%
+                            </td>
+                            <td
+                                class="tableText tableHeader"
+                                style="text-align: right; width: 30%"
+                            >
+                                %%LNG_ItemTotal%%
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

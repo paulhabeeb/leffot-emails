@@ -1,0 +1,33 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title">
+                    %%LNG_GiftCertificateEmailYouHaveReceived%%
+                    %%GLOBAL_StoreName%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_Dear%% %%GLOBAL_ToName%%,
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_Intro%% %%GLOBAL_ExpiryInfo%%
+                    %%LNG_GiftCertificateEmailInstructions%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_GiftCertificateEmailAttached%%
+                    %%LNG_GiftCertificateEmailWarning%%
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer.mjml" />
+    </mj-body>
+</mjml>

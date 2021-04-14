@@ -1,0 +1,20 @@
+<mj-section padding-bottom="0">
+    <mj-column mj-class="body-column-600">
+        <mj-text mj-class="section-title"> Holiday Gift Ideas </mj-text>
+
+        <mj-text mj-class="section-text">
+            There’s still time to pick up a gift for your loved ones. If nothing
+            here strikes your fancy, consider a
+            <a class="inline-link" href="https://leffot.com/gift-cards/"
+                >gift card</a
+            >
+            or one of the many
+            <a
+                class="inline-link"
+                href="https://leffot.com/categories/gift-ideas/"
+                >more ideas</a
+            >
+            on our website.
+        </mj-text>
+    </mj-column>
+</mj-section>

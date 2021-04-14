@@ -1,0 +1,113 @@
+<mj-section mj-class="no-padding">
+    <mj-column>
+        <mj-spacer height="3px" />
+    </mj-column>
+</mj-section>
+
+<mj-section mj-class="shoe-group-header">
+    <mj-column>
+        <mj-text mj-class="shoe-group-title">
+            <span class="thick-border">You May Have Missed</span>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section mj-class="shoe-wrapper" padding="0 30px 15px">
+    <mj-group>
+        <mj-column mj-class="suggested-left">
+            <mj-image
+                src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/e9b1e1ec-2456-4d0c-852c-cfe4b463a5d7.jpg"
+                mj-class="shoe-image-secondary"
+            >
+            </mj-image>
+            <mj-text mj-class="shoe-title shoe-title-small">
+                John Lobb Tore
+            </mj-text>
+
+            <mj-text mj-class="shoe-subtitle no-padding">
+                Navy Calfskin
+            </mj-text>
+
+            <mj-spacer height="10px" />
+
+            <mj-button
+                href="https://leffot.com/pre-owned/1412-john-lobb-tore"
+                mj-class="button-base"
+            >
+                Shop
+            </mj-button>
+        </mj-column>
+        <mj-column mj-class="suggested-right">
+            <mj-image
+                src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/1e61e789-1735-4736-8016-95d05de84af1.jpg"
+                mj-class="shoe-image-secondary"
+            >
+            </mj-image>
+            <mj-text mj-class="shoe-title shoe-title-small">
+                Corthay Sergio
+            </mj-text>
+
+            <mj-text mj-class="shoe-subtitle no-padding">
+                Castor Suede
+            </mj-text>
+
+            <mj-spacer height="10px" />
+
+            <mj-button
+                href="https://leffot.com/pre-owned/1416-corthay-sergio"
+                mj-class="button-base"
+            >
+                Shop
+            </mj-button>
+        </mj-column>
+    </mj-group>
+</mj-section>
+
+<mj-section mj-class="shoe-wrapper" padding="0 30px 15px">
+    <mj-group>
+        <mj-column mj-class="suggested-left">
+            <mj-image
+                src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/6b6c58a1-63c8-4af1-8827-bbe4bb4f4112.jpg"
+                mj-class="shoe-image-secondary"
+            >
+            </mj-image>
+            <mj-text mj-class="shoe-title shoe-title-small">
+                Wolverine 1000 Mile Boot
+            </mj-text>
+
+            <mj-text mj-class="shoe-subtitle no-padding">
+                Brown Pebble Grain Calfskin
+            </mj-text>
+
+            <mj-spacer height="10px" />
+
+            <mj-button
+                href="https://leffot.com/pre-owned/1298-wolverine-1000-mile"
+                mj-class="button-base"
+            >
+                Shop
+            </mj-button>
+        </mj-column>
+        <mj-column mj-class="suggested-right">
+            <mj-image
+                src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/e0bc7d6b-35cf-4ffe-a936-e8f24ba19137.jpg"
+                mj-class="shoe-image-secondary"
+            >
+            </mj-image>
+            <mj-text mj-class="shoe-title shoe-title-small">
+                Carmina Captoe
+            </mj-text>
+
+            <mj-text mj-class="shoe-subtitle no-padding">Brown Suede</mj-text>
+
+            <mj-spacer height="10px" />
+
+            <mj-button
+                href="https://leffot.com/pre-owned/1168-carmina-captoe"
+                mj-class="button-base"
+            >
+                Shop
+            </mj-button>
+        </mj-column>
+    </mj-group>
+</mj-section>

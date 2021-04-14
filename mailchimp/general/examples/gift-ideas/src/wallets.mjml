@@ -1,0 +1,26 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/076db301-aa78-4120-bbee-d6ab73cee2ca.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-subtitle"> Minimalist Wallets </mj-text>
+
+        <mj-text mj-class="section-text">
+            We offer two styles of minimalist wallet. Both are made from genuine
+            Horween shell cordovan, a hard-wearing yet supple leather that takes
+            on a beautiful patina with age.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/categories/wallets/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

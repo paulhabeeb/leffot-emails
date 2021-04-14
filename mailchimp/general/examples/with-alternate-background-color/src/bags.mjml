@@ -1,0 +1,42 @@
+<mj-section mj-class="body-section-full-width" background-color="#222222">
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-inside-full-width"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/a021601c-3de9-4510-82b3-e48fdb77e732.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title color-white">
+            Thomas Riemer Bags
+        </mj-text>
+
+        <mj-text mj-class="section-callout color-white">
+            Handcrafted from supple goatskin suede
+        </mj-text>
+
+        <mj-text mj-class="section-text color-white">
+            We’ve just received two bags from Thomas Riemer. Both are available
+            in forest green or walnut.
+        </mj-text>
+
+        <mj-text mj-class="section-text color-white">
+            The Weekender is a holdall with two-zip closure, ideal for short
+            business or weekend trips.
+        </mj-text>
+
+        <mj-text mj-class="section-text color-white">
+            The Weekender XL is the big brother to the Weekender. It has a
+            single-zip closure, large main compartment, and detachable shoulder
+            strap.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/categories/bags/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

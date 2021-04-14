@@ -1,0 +1,24 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="10px 0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title">
+                    How to Pay for Your Order
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%LNG_YourOrderTotalIs%% %%GLOBAL_PaymentGatewayAmount%%.
+                    Your order requires payment before it can be finalized. Once
+                    you’ve provided payment, your order will be completed.
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_PaymentMessage%%
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

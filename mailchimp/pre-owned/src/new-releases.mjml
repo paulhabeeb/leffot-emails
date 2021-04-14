@@ -1,0 +1,64 @@
+<mj-section padding="0 30px 50px">
+    <mj-column vertical-align="middle">
+        <mj-text mj-class="section-title">US 9.5</mj-text>
+        <mj-text mj-class="section-text">(and equivalent UK sizes)</mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section mj-class="shoe-group-header">
+    <mj-column>
+        <mj-text mj-class="shoe-group-title">
+            <span class="thick-border">New Arrivals</span>
+        </mj-text>
+    </mj-column>
+</mj-section>
+
+<mj-section mj-class="shoe-wrapper">
+    <mj-column mj-class="shoe-image-wrapper">
+        <mj-image
+            mj-class="shoe-image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/83dbb414-113c-47de-8a07-17405128b75d.jpg"
+        >
+        </mj-image>
+    </mj-column>
+
+    <mj-column mj-class="shoe-description-wrapper">
+        <mj-text mj-class="shoe-title">Alden Indy Boot</mj-text>
+
+        <mj-text mj-class="shoe-subtitle">Brown Chromexcel</mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/pre-owned/1460-alden-indy-boot"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>
+
+<mj-section mj-class="shoe-wrapper">
+    <mj-column mj-class="shoe-image-wrapper">
+        <mj-image
+            mj-class="shoe-image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/dacfeea0-67b2-4ba8-9192-be8d51a85238.jpg"
+        >
+        </mj-image>
+    </mj-column>
+
+    <mj-column mj-class="shoe-description-wrapper">
+        <mj-text mj-class="shoe-title">Alden Penny Loafer</mj-text>
+
+        <mj-text mj-class="shoe-subtitle">Brown Chromexcel</mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/pre-owned/1461-alden-loafer"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

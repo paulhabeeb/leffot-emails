@@ -1,0 +1,92 @@
+<mjml>
+    <mj-head>
+        <mj-include path="./common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="./common/header.mjml" />
+
+        <mj-raw> %%GLOBAL_NoPaymentTaken%% </mj-raw>
+
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="order-number">
+                    Order #%%GLOBAL_OrderNumber%%
+                </mj-text>
+
+                <mj-text mj-class="body-title">
+                    Thank you for your purchase!
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    We’re getting your order ready to be shipped. We will notify
+                    you when it has been sent. If you ordered a gift card, it
+                    has been sent to the recipient by email.
+                </mj-text>
+
+                <mj-button
+                    href="https://leffot.com/orderstatus.php"
+                    mj-class="button-primary"
+                >
+                    View Order
+                </mj-button>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            %%GLOBAL_PendingPaymentDetails%% %%GLOBAL_OrderCommentBlock%%
+        </mj-raw>
+
+        <mj-section padding="30px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-spacer mj-class="body-section-spacer" />
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="20px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="10px 0">
+                    Order Summary
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw> %%GLOBAL_CartItemColumns%% %%SNIPPET_CartItems%% </mj-raw>
+
+        <mj-section padding="10px 0 20px">
+            <mj-column mj-class="body-column-600">
+                <mj-spacer mj-class="body-section-spacer" height="1px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw> %%SNIPPET_TotalRows%% </mj-raw>
+
+        <mj-section padding="20px 0 0">
+            <mj-column mj-class="body-column-600" width="50%">
+                <mj-text mj-class="body-title" padding="10px 0">
+                    %%LNG_ShippingAddress%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_ShippingAddress%%
+                </mj-text>
+            </mj-column>
+            <mj-column mj-class="body-column-600" width="50%">
+                <mj-text mj-class="body-title" padding="10px 0">
+                    %%LNG_BillingAddress%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_BillingAddress%%
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-section padding="10px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-spacer mj-class="body-section-spacer" />
+            </mj-column>
+        </mj-section>
+
+        <mj-include path="./common/footer.mjml" />
+    </mj-body>
+</mjml>

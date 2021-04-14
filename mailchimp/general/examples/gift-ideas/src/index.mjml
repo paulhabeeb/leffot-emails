@@ -1,0 +1,17 @@
+<mjml>
+    <mj-head>
+        <mj-title>*|MC:SUBJECT|*</mj-title>
+        <mj-preview>*|MC_PREVIEW_TEXT|*</mj-preview>
+        <mj-include path="../../../src/common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-include path="../../../src/common/header.mjml" />
+        <mj-include path="./gift_ideas_header.mjml" />
+        <mj-include path="./drakes.mjml" />
+        <mj-include path="./wallets.mjml" />
+        <mj-include path="./gloves.mjml" />
+        <mj-include path="./belts.mjml" />
+        <mj-include path="../../../src/common/spacer.mjml" />
+        <mj-include path="../../../src/common/footer.mjml" />
+    </mj-body>
+</mjml>

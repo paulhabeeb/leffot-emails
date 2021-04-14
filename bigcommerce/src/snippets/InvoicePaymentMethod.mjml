@@ -1,0 +1,38 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="0">
+            <mj-column mj-class="body-column-600">
+                <mj-table padding="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText"
+                                style="
+                                    color: #222222;
+                                    padding-right: 10px;
+                                    text-align: right;
+                                    width: 70%;
+                                "
+                            >
+                                %%LNG_PaymentProviderName%%:
+                            </td>
+                            <td
+                                class="tableText"
+                                style="
+                                    color: #222222;
+                                    text-align: right;
+                                    width: 30%;
+                                "
+                            >
+                                %%GLOBAL_PaymentProviderMethod%%
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

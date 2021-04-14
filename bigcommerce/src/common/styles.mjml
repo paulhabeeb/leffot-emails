@@ -1,0 +1,79 @@
+<mj-attributes>
+    <!-- Layout -->
+    <mj-class name="body-wrapper" background-color="#FFFFFF" />
+    <mj-class name="body-column-600" width="600px" padding="0" />
+    <mj-class
+        name="body-section-spacer"
+        height="2px"
+        container-background-color="#e1e1e1"
+    />
+
+    <!-- Text -->
+    <mj-class
+        name="body-title"
+        color="#222222"
+        font-family="'proxima-nova', 'Proxima Nova', Helvetica, Arial, sans-serif"
+        font-size="20px"
+        font-weight="bold"
+        letter-spacing="0.25px"
+        line-height="30px"
+        padding="10px 0 0"
+    />
+    <mj-class
+        name="body-text"
+        color="#222222"
+        font-family="'proxima-nova', 'Proxima Nova', Helvetica, Arial, sans-serif"
+        font-size="18px"
+        line-height="27px"
+        padding="10px 0"
+    />
+    <mj-class
+        name="order-number"
+        color="#676767"
+        font-family="'proxima-nova', 'Proxima Nova', Helvetica, Arial, sans-serif"
+        font-size="16px"
+        line-height="24px"
+        padding="10px 0"
+    />
+    <mj-class
+        name="footer-text"
+        color="#222222"
+        font-family="'proxima-nova', 'Proxima Nova', Helvetica, Arial, sans-serif"
+        font-size="16px"
+        line-height="24px"
+        padding="10px 0"
+    />
+
+    <!-- Buttons -->
+    <mj-class
+        name="button-primary"
+        align="left"
+        background-color="#947000"
+        border-radius="1px"
+        color="#FFFFFF"
+        font-family="'proxima-nova', 'Proxima Nova', Helvetica, Arial, sans-serif"
+        font-size="18px"
+        font-weight="bold"
+        line-height="27px"
+        padding="10px 0"
+    />
+</mj-attributes>
+<mj-style inline="inline">
+    .inline-link {
+        color: #947000;
+    }
+    .tableHeader {
+        font-weight: bold;
+        color: #474747;
+    }
+    .tableText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .topBorder {
+        border-top: 1px solid #e1e1e1;
+    }
+</mj-style>
+<mj-raw>
+    <link rel="stylesheet" href="https://use.typekit.net/bvl5rhi.css" />
+</mj-raw>

@@ -1,0 +1,5 @@
+<mj-section>
+    <mj-column mj-class="body-column-600" padding="0">
+        <mj-spacer height="1px" />
+    </mj-column>
+</mj-section>

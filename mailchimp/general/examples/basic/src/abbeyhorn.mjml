@@ -1,0 +1,28 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/4bd7b57d-dbba-47fb-aa94-22b3954d5895.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title"> Shaving Brushes </mj-text>
+
+        <mj-text mj-class="section-callout"> Handemade in England </mj-text>
+
+        <mj-text mj-class="section-text">
+            Slow down and enjoy your shave with this badger bristle shaving
+            brush. Handmade in England from all natural materials, it’s the
+            perfect addition to your morning routine.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/abbeyhorn/shaving-brush/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

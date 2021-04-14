@@ -1,0 +1,39 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="10px 0">
+            <mj-column mj-class="body-column-600">
+                <mj-table padding="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                class="tableText topBorder"
+                                style="padding-top: 20px; width: 70%"
+                            >
+                                <strong
+                                    >%%GLOBAL_ProductName%%
+                                    x%%GLOBAL_ProductQuantity%%</strong
+                                >
+                                %%GLOBAL_ProductOptions%%
+                                %%GLOBAL_ProductAttributes%% <br />
+                                %%GLOBAL_ExpectedReleaseDate%%%%GLOBAL_CartProductFields%%%%GLOBAL_EventDate%%
+                            </td>
+                            <td
+                                class="tableText topBorder"
+                                style="
+                                    padding-top: 20px;
+                                    text-align: right;
+                                    width: 30%;
+                                "
+                            >
+                                <strong>%%GLOBAL_ProductTotal%%</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </mj-table>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

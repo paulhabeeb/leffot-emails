@@ -1,0 +1,28 @@
+<mj-section>
+    <mj-column mj-class="body-column-600">
+        <mj-image
+            mj-class="image-main"
+            src="https://gallery.mailchimp.com/aa515892f1b2fcfd7769f161b/images/795e1ac4-12db-4e9c-8c9b-732394e74b5b.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-title"> Kreis Belts </mj-text>
+
+        <mj-text mj-class="section-callout"> Back in stock </mj-text>
+
+        <mj-text mj-class="section-text">
+            Kreis belts are made in Germany from the finest suede and Horween
+            shell cordovan. Paired with Alden color 8 longwings or Edward Green
+            Shanklins, they’re a simple way to complete an outfit.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/categories/belts/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

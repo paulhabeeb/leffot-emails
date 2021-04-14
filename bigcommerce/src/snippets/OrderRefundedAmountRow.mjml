@@ -1,0 +1,18 @@
+<mjml>
+    <mj-head>
+        <mj-include path="../common/styles.mjml" />
+    </mj-head>
+    <mj-body mj-class="body-wrapper">
+        <mj-section padding="20px 0 0">
+            <mj-column mj-class="body-column-600">
+                <mj-text mj-class="body-title" padding="0">
+                    %%LNG_OrderRefundedAmount%%
+                </mj-text>
+
+                <mj-text mj-class="body-text">
+                    %%GLOBAL_OrderRefundAmount%%
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

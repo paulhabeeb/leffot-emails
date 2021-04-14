@@ -1,0 +1,54 @@
+<mj-section>
+    <mj-column mj-class="container--600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/30f56580-911e-4c7f-9ba7-e0f6a82c5901.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-subtitle"> Beanies and Scarves </mj-text>
+
+        <mj-text mj-class="section-text">
+            Give the gift of warmth with one of Drake’s beanies or iconic
+            scarves. The beanies are knit in Scotland from 100% lambswool, and
+            the scarves are made in Italy from a wool-silk blend. They’ll add a
+            splash of color to any outfit.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/drakes/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>
+<mj-section>
+    <mj-column mj-class="container--600">
+        <mj-image
+            mj-class="image-main"
+            src="https://mcusercontent.com/aa515892f1b2fcfd7769f161b/images/6653d3bb-3659-4384-8597-786a07d36383.jpg"
+        >
+        </mj-image>
+
+        <mj-text mj-class="section-subtitle"> Crosby Chukka </mj-text>
+
+        <mj-text mj-class="section-text">
+            Drake’s Crosby is an easy-to-wear chukka that’s soft and
+            comfortable. Available in stone, snuff, and loden suede, as well as
+            their new chocolate brown, it’s a classic style that pairs well with
+            jeans, cords, or chinos.
+        </mj-text>
+
+        <mj-spacer height="10px" />
+
+        <mj-button
+            href="https://leffot.com/brands/drakes/"
+            mj-class="button-base"
+        >
+            Shop
+        </mj-button>
+    </mj-column>
+</mj-section>

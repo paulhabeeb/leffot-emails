@@ -1,0 +1,43 @@
+<mj-section padding="0">
+    <mj-column mj-class="body-column-600">
+        <mj-text mj-class="body-title"> Welcome to Leffot! </mj-text>
+
+        <mj-text mj-class="body-text">
+            %%LNG_Hi%% %%GLOBAL_FirstName%%,
+        </mj-text>
+
+        <mj-text mj-class="body-text">
+            Thanks for creating an account at Leffot. To sign in to your
+            account,
+            <a href="https://leffot.com/login" class="inline-link"
+                >visit our website</a
+            >.
+        </mj-text>
+
+        <mj-text mj-class="body-title"> Follow Us </mj-text>
+
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element
+                name="instagram"
+                href="https://instagram.com/leffot"
+            >
+                Instagram
+            </mj-social-element>
+
+            <mj-social-element
+                name="facebook"
+                href="https://www.facebook.com/leffot"
+            >
+                Facebook
+            </mj-social-element>
+
+            <mj-social-element name="twitter" href="https://twitter.com/leffot">
+                Twitter
+            </mj-social-element>
+        </mj-social>
+
+        <mj-text mj-class="body-title"> Questions? </mj-text>
+
+        <mj-include path="./common/questions.mjml" />
+    </mj-column>
+</mj-section>
